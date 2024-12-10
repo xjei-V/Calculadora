@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="calculadora-container">
+        <div class="pantalla">
+            <input type="text" id="pantalla" readonly>
+        </div>
+
+                <div class="teclas-padre">
+                    <button type="button" class="teclas tecla-1" onclick="actualizarPantalla('←')">←</button>
+                    <button type="button" class="teclas tecla-2" onclick="actualizarPantalla('/')">/</button>
+                    <button type="button" class="teclas tecla-3" onclick="actualizarPantalla('*')">*</button>
+                    <button type="button" class="teclas tecla-4" onclick="actualizarPantalla('-')">-</button>
+                    <button type="button" class="teclas tecla-7" onclick="actualizarPantalla('7')">7</button>
+                    <button type="button" class="teclas tecla-8" onclick="actualizarPantalla('8')">8</button>
+                    <button type="button" class="teclas tecla-9" onclick="actualizarPantalla('9')">9</button>
+                    <button type="button" class="teclas tecla-5" onclick="actualizarPantalla('+')">+</button>
+                    <button type="button" class="teclas tecla-10" onclick="actualizarPantalla('4')">4</button>
+                    <button type="button" class="teclas tecla-11" onclick="actualizarPantalla('5')">5</button>
+                    <button type="button" class="teclas tecla-12" onclick="actualizarPantalla('6')">6</button>
+                    <button type="button" class="teclas tecla-6" onclick="evaluarExpresion()">=</button>
+                    <button type="button" class="teclas tecla-13" onclick="actualizarPantalla('1')">1</button>
+                    <button type="button" class="teclas tecla-14" onclick="actualizarPantalla('2')">2</button>
+                    <button type="button" class="teclas tecla-15" onclick="actualizarPantalla('3')">3</button>
+                    <button type="button" class="teclas tecla-16" onclick="actualizarPantalla('0')">0</button>
+                </div>
+            </form>
+            
+        </div>
+    </form>
+    
+
+    <script src="calculadoraa.js"></script>
+</body>
+</html>
